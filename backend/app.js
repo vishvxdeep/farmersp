@@ -85,16 +85,18 @@ app.use(`${api}/harvest`, harvestRoutes);
 app.use(`${api}/rate`, rateRoutes);
 app.use(`${api}/service`, serviceRoutes);
 app.use(`${api}/croprequest`, croprequestRoutes);
+app.use(express.static(path.join(__dirname,'/client/dist')))
+//Render client
+app.get('*',(req,res)=> res.sendFile(path.join(__dirname,"/client/dist/index.html")));
 
-//CONNECTION_STRING = 'mongodb://localhost:27017/';
+//CONNECTION_STRING = 'postgresql://farmerapp_user:WjxpSuSO8DS7bg9QBKLbHrI4soFWDumN@dpg-d0een5s9c44c73811190-a.oregon-postgres.render.com/farmerapp';
 //  http://localhost:4000/api/v1/business/
 
 //Database
 mongoose
-  .connect(process.env.CONNECTION_STRING, {
+  .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useFindAndModify: false, // Add this line
     dbName: "farmer_harvest",
   })
   .then(() => {
