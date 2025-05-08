@@ -1,0 +1,53 @@
+[{
+  "_id": {
+    "$oid": "657be8706428f22cc74c006b"
+  },
+  "email": "admin@gmail.com",
+  "passwordHash": "$2a$10$AIyNNgkeyFJmzgQiUxPJ2uHqDe43ORZIcTR./3WV8xVfF32f4QMs.",
+  "role": "admin"
+},
+{
+  "_id": {
+    "$oid": "66b9cf76af6bf82cd058c8e3"
+  },
+  "city": "Bangalore",
+  "status": "Approved",
+  "name": "buyer1",
+  "email": "buyer1@gmail.com",
+  "passwordHash": "$2a$10$v1XErziN4QqSX1awliHDTeVe2dNtueThM6aC7wmsblCFDjiM.c2I2",
+  "phone": "1234567890",
+  "role": "buyer",
+  "question1": "booz",
+  "question2": "pp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bc435237a0ed4ac8e62ac4"
+  },
+  "city": "Bangalore",
+  "status": "Pending",
+  "name": "service1",
+  "email": "service1@gmail.com",
+  "passwordHash": "$2a$10$qduFNS1M2fwWK6IH7yhttuT6F5jLSIPros524fO3.KUfB/4MBjPSy",
+  "phone": "1234567891",
+  "role": "service_provider",
+  "question1": "booz",
+  "question2": "pp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bc4e4f4cfb844b3059896a"
+  },
+  "city": "Chennai",
+  "status": "Pending",
+  "name": "user1",
+  "email": "user1@gmail.com",
+  "passwordHash": "$2a$10$mo2qavecnpPvO/28FCPUFurZbbcUkwd4wqKNeGtXS5FhUFHCDdzBC",
+  "phone": "1234567890",
+  "role": "user",
+  "question1": "booz",
+  "question2": "pp",
+  "__v": 0
+}]

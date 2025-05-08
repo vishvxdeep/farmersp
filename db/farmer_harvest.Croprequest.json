@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "66bf38dbb80c7f0dbc983242"
+  },
+  "report": "I accept this offer",
+  "receipt": "public\\uploads\\1723807987580-FarmCashReciepts.jpg",
+  "status": "Accept",
+  "dateCreated": "2024-08-16T11:31:57.416Z",
+  "useremail": "user1@gmail.com",
+  "buyeremail": "buyer1@gmail.com",
+  "cropname": "Wheat",
+  "name": "buyer1",
+  "bidding_details": "Offering a premium for high-quality crops",
+  "mobile": 1234567890,
+  "lat": 11.0959,
+  "long": 77.3674,
+  "__v": 0
+}]

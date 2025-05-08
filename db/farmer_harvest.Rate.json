@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "66bf36d4a92b8c0b9c9d2061"
+  },
+  "lat": 11.0959,
+  "long": 77.3674,
+  "buyeremail": "buyer1@gmail.com",
+  "crop_name": "Corn",
+  "price": 300,
+  "address": "123 Elm Street, Bangalore",
+  "mobile": 1234567891,
+  "dateCreated": {
+    "$date": "2024-08-16T11:24:04.746Z"
+  },
+  "__v": 0
+}]
