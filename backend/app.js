@@ -107,19 +107,20 @@ mongoose
 //Server
 if(process.env.NODE_ENV === "production"){
   const dirPath = path.resolve();
-  app.use(express.static("Frontend/dist"));
+  app.use(express.static(path.join(dirPath,'../client/build')));
   app.get("*",(req,res) => {
-    res.sendFile(path.resolve(dirPath,"Frontend","dist","index.html"));
+    res.sendFile(path.join(dirPath,'../client/build',"index.html"));
   })
 }
+const PORT = process.env.PORT || 4000;
 app.listen(4000, () => {
   console.log("server is running http://localhost:4000");
 });
 
 {
-  /*
+  
 app.get("/message", (req, res) => {
     res.json({ message: "Hello from server!" });
   });
-*/
+
 }
